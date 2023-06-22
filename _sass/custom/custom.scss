@@ -1,11 +1,34 @@
 .main-content {
 text-align: justify;
 }
-
+.side-bar{
+    width: 10%;
+    background-color: #6cb584;
+    border: 0px;
+}
 .nav-list-link {
 &:hover {
-    color: #7253ed !important;
+    color: #201f1f !important;
 }
+}
+.site-title{
+    background-color: #fff;
+    font-weight: bolder;
+}
+.nav-category{
+    color: #111;
+    font-weight: 600;
+    font-size: medium !important;
+}
+
+.nav-list-link.active {
+    background-image: linear-gradient(-90deg, #fff 0%, rgba(235, 237, 245, 0.8) 60%, rgba(235, 237, 245, 0) 100%) !important;
+}
+.nav-list-link{
+    font-weight: 600;
+}
+a{
+    color: #072318 !important;
 }
 
 th,
