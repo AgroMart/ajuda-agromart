@@ -12,9 +12,11 @@ Tutorial de Deploy
 
 {: .fs-6 .fw-300 }
 
-## Pré requesitos
+## Requisitos de instalação
 
-- Repositório clonado em um computador local
+Para poder levantar seu próprio ambiente Agromart primeiro é necessário ter instalado na sua maquina algumas ferramentas.
+
+- A api do Agromart, que pode ser baixada através do link `https://github.com/AgroMart/api.git`
 - Conta com cartão de credito no [Heroku](https://dashboard.heroku.com/)
 
 Ferramentas necessárias:
@@ -26,7 +28,7 @@ Arquivo de configuração e de ambiente configurados
 
 - config.ini
 
-## Instalações Externas
+## Instalações
 
 ### Instalação Git
 
@@ -40,6 +42,21 @@ Baixe o instalador através de um dos links abaixo:
 - Windows 32-bit `https://cli-assets.heroku.com/heroku-x86.exe`
 
 siga a instalação normalmente com as opções padrões.
+
+# Instalação da API Agromart
+
+## Arquivos Agromart
+
+Faça o download da api através do endereço `https://github.com/AgroMart/api.git`.
+Na pagina da api Agromart clique em code
+
+![Pagina do git da api agromart com o botão code selecionado](../../assets/deploy/api-git1.png)
+
+Em seguida, no menu que apareceu, clique em `Download ZIP`
+
+![Botão de fazer download em ZIP](../../assets/deploy/api-git2.png)
+
+Agora basta descompactar os arquivos no local que deseja manter o agromart e seguir com a instalação.
 
 ## Arquivos de Configuração
 
@@ -80,7 +97,6 @@ email = laranja@secreta.com
 
 ## Deploy da aplicação
 
-Em uma pasta faça o download do repositorio `https://github.com/AgroMart/api.git` utilizando o git ou descompactando os arquivos
-Em seguida altere o arquivo de configuração `config.ini` e execute o arquivo `deploy.exe`.
+Na pasta em que foram descompactados os arquivos, lembre-se de alterar o arquivo de configuração `config.ini` conforme o necessário. em seguida e execute o arquivo `deploy.exe`.
 
 Aguarde uns instantes e sua aplicação estara disponível.
