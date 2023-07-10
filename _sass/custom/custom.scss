@@ -1,76 +1,51 @@
 .main-content {
-text-align: justify;
-}
-.side-bar{
-    width: 10%;
-    background-color: #6cb584;
-    border: 0px;
-}
-.nav-list-link {
-&:hover {
-    color: #201f1f !important;
-}
-}
-.site-title{
-    background-color: #fff;
-    font-weight: bolder;
-}
-.nav-category{
-    color: #111;
-    font-weight: 600;
-    font-size: medium !important;
+  text-align: justify;
 }
 
-.nav-list-link.active {
-    background-image: linear-gradient(-90deg, #fff 0%, rgba(235, 237, 245, 0.8) 60%, rgba(235, 237, 245, 0) 100%) !important;
-}
-.nav-list-link{
-    font-weight: 600;
-}
-a{
-    color: #072318 !important;
+.nav-list-link {
+  font-weight: 600;
 }
 
 th,
 td {
-padding: 0.5rem 0.75rem !important;
+  padding: 0.5rem 0.75rem !important;
 }
 
 .label {
-margin: 0;
-padding: 0.3rem 0.6rem !important;
+  margin: 0;
+  padding: 0.3rem 0.6rem !important;
 }
 
-[data-toggle='lightbox'] {
-position: relative;
-display: inline-block;
+[data-toggle="lightbox"] {
+  position: relative;
+  display: inline-block;
 
-&:hover {
+  &:hover {
     &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #111;
-    opacity: 0.3;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #111;
+      opacity: 0.3;
     }
 
     &:after {
-    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="75" height="75"><path fill="white" stroke="white" stroke-opacity="0.25" stroke-width="0.25" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm1-7h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7a1 1 0 1 1 2 0v2z"/></svg>');
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+      content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="75" height="75"><path fill="white" stroke="white" stroke-opacity="0.25" stroke-width="0.25" d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12zm1-7h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7a1 1 0 1 1 2 0v2z"/></svg>');
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
     }
-}
-&.persona {
+  }
+  &.persona {
     width: 150px;
-}
-img {
+  }
+  img {
     display: block;
-}
+  }
 }
