@@ -50,11 +50,11 @@ siga a instalação normalmente com as opções padrões.
 Faça o download da api através do endereço `https://github.com/AgroMart/api.git`.
 Na pagina da api Agromart clique em code
 
-![Pagina do git da api agromart com o botão code selecionado](../../assets/deploy/api-git1.png)
+<img src="{{ site.baseurl }}/assets/deploy/api-git1.png" class="img-fluid" alt="Pagina do git da api agromart com o botão code selecionado"/>
 
 Em seguida, no menu que apareceu, clique em `Download ZIP`
 
-![Botão de fazer download em ZIP](../../assets/deploy/api-git2.png)
+<img src="{{ site.baseurl }}/assets/deploy/api-git2.png" class="img-fluid" alt="Botão de fazer download em ZIP"/>
 
 Agora basta descompactar os arquivos no local que deseja manter o agromart e seguir com a instalação.
 
